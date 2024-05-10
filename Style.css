@@ -48,7 +48,7 @@ gives the image a shadow*/
 /*this makes the images "transform" in a 2d space bassically it moves in a aesthetic way pretty much when hovering over it, i learned it from w3 and mimo*/
 img {
     display: block;
-    width: 40%;
+    width: 100%;
     height: auto;
     border-radius: 8px;
 }
