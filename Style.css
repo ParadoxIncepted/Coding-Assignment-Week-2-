@@ -94,3 +94,14 @@ input[type=text] {
     text-align: center;
     padding: 10px 0;
 }
+.box {
+    display: inline-block;
+    background-color: #DAA520;
+    color: black ;
+    border: 2px solid #DAA520;
+    padding: 5px #DAA520;
+    border-radius: 10px;
+}
+.box:hover {
+    transform: scale(1.05);
+}
