@@ -1,0 +1,96 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+/*this is saying the background color is black and all text is white and the font aswell */
+h1, h2, h3 {
+    color: #DAA520; 
+    text-align: center;
+}
+/*this states that the text is centered for h1 h2 h3 and the text will be golden*/
+p {
+    line-height: 1.5;
+}
+/*this says all paragraphs line hight is 1.5*/
+a {
+    color: #DAA520; 
+    text-decoration: none;
+}
+/*this just makes the links golden and removes the underline*/
+a:hover {
+    text-decoration: underline;
+}
+/*this underlines the links when hovering over them*/
+/* Button Style */
+
+header {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+}
+/*this adds padding to the header and makes the backround a lighter black, also centers the text*/
+h1 {
+    font-size: 28px;
+}
+/*this makes h1 font size 28px*/
+.photo {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+/*this curves the images corners,clips the overflow and the rest of the content is hidden, 
+gives the image a shadow*/
+.photo:hover {
+    transform: scale(1.05);
+}
+/*this makes the images "transform" in a 2d space bassically it moves in a aesthetic way pretty much when hovering over it, i learned it from w3 and mimo*/
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+/*this displays the img as a block element, makes the width the whole page, and the hight is auto basically*/
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #DAA520; /* Golden color */
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    
+}
+/*this displays the button as an in line level block container
+(The element itself is formatted as an inline element, but you can apply height and width values)
+adds padding, makes the backround golden,
+text is black, and removes the line under the text
+curves the corners , and gives a margin*/
+.button:hover {
+    background-color: black;
+    color: #DAA520; /* Golden color */
+}
+/*this makes the bottons black and text golden when hovering*/
+
+input[type=text] {
+        background-color: #181103;
+        color: #DAA520;
+}
+/*this makes the form have color*/
+.label {
+    font-size: 12px;
+}
+/*this makes the font size smaller*/
+.form {
+    text-align: center;
+}
+/*this centers anything it is applyed to*/
+/* Footer Style */
+.footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
+    <link rel="stylesheet" href="Style.css">
 </head>
 <body>
     <header><h1>About & Contact</h1></header>
 
-    <table>
+    <table class="form">
         <tr>
             <th>Data about the movie</th>
         </tr>
         <tr>
             <td>Realese Date</td>
-            <td>July 30 1999</td>
+            <td>July 30 1999</td><br>
         </tr>
         <tr>
             <td>Directors</td>
@@ -34,13 +35,16 @@
         </tr>
     </table>
     <h2>Contact Us</h2>
-
-    <form>
-       Your Name <br>
-       <input type="text" placeholder="First Name"> <br>
-       Your Email <br>
-        <input type="text" placeholder="Email">
-    </form>
-    <button>submit</button>
+    <div>
+        <form class="form">
+         <label class="label">Your Name</label><br>
+         <input type="text" id="fname" name="fname"> <br>
+         <label class="label">Your Email</label><br>
+         <input type="text" id="email" name="email"><br>
+        </form>
+    </div>
+    <div class="form">
+    <button class="button">submit</button>
+    </div>
 </body>
 </html
